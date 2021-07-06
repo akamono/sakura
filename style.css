@@ -1,0 +1,24 @@
+header {
+  background-color: rgb(245, 237, 227);
+}
+
+main {
+  background-color: rgb(186, 252, 252);
+  /* asideの幅を指定したら後のあまりの幅を全てmainに当てるようにしている。それがflex:1; */
+  flex: 1;
+}
+
+aside {
+  color: white;
+  background-color: blue;
+  width: 60px;
+
+}
+
+footer {
+  background-color: cornflowerblue;
+}
+
+.container {
+  display: flex;
+}
